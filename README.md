@@ -1,1 +1,3 @@
-# cloud_research
+# Cloud Cost Optimizer
+
+Work in progress.

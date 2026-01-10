@@ -1,0 +1,27 @@
+# Core dependencies
+numpy
+pandas
+scipy
+scikit-learn
+
+# Statistical models
+statsmodels
+
+# Deep learning (optional, for LSTM)
+tensorflow
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Utilities
+tqdm
+joblib
+
+# Configuration
+pyyaml
+
+# Testing
+pytest
+pytest-cov

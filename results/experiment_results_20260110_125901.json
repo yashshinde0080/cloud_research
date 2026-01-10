@@ -1,0 +1,106 @@
+{
+  "prediction_metrics": {
+    "rmse": 0.0008724937593366357,
+    "mae": 0.0003603696823120117,
+    "mape": 26.21650548017219
+  },
+  "proposed": {
+    "total_cost": 0.0025023659070332847,
+    "utilization": 0.1055968016752069,
+    "sla_violations": 0,
+    "sla_violation_rate": 0.0,
+    "cost_reduction_pct": -1669.0944129809423
+  },
+  "baselines": {
+    "static": {
+      "total_cost": 0.000141448974609375,
+      "utilization": 0.16976245055735348,
+      "sla_violations": 0,
+      "cost_reduction_pct": 0.0
+    },
+    "threshold": {
+      "total_cost": 1.0862946510314941e-05,
+      "utilization": 2.2157585733696576,
+      "sla_violations": 3,
+      "cost_reduction_pct": 92.32023665048543
+    },
+    "moving_average": {
+      "total_cost": 0.0033333333333333335,
+      "utilization": 0.0072038173603498935,
+      "sla_violations": 0,
+      "cost_reduction_pct": -2256.562387630349
+    }
+  },
+  "cluster_analysis": {
+    "0": {
+      "size": 47,
+      "percentage": 47.0,
+      "cpu_mean_mean": 0.6695113480223323,
+      "cpu_mean_std": 0.7146036223719008,
+      "cpu_std_mean": 0.8603816891645283,
+      "cpu_std_std": 0.4808224184642767,
+      "cpu_cv_mean": 0.11058020026821015,
+      "cpu_cv_std": 1.0115017331993414,
+      "peak_usage_mean": 0.8714705808182832,
+      "peak_usage_std": 0.29442485612570457,
+      "over_provision_ratio_mean": -0.366928664563883,
+      "over_provision_ratio_std": 0.07411846148331944,
+      "memory_mean_mean": -0.10409315980691193,
+      "memory_mean_std": 0.4173277186945594,
+      "workload_type": "periodic"
+    },
+    "1": {
+      "size": 41,
+      "percentage": 41.0,
+      "cpu_mean_mean": -0.7845794099845286,
+      "cpu_mean_std": 0.30314300749222695,
+      "cpu_std_mean": -0.8469274578455358,
+      "cpu_std_std": 0.46296792844094686,
+      "cpu_cv_mean": 0.11196015458884974,
+      "cpu_cv_std": 0.9640058250844827,
+      "peak_usage_mean": -0.9226641233556632,
+      "peak_usage_std": 0.44809345675778756,
+      "over_provision_ratio_mean": -0.029210859325829428,
+      "over_provision_ratio_std": 0.41241969660050914,
+      "memory_mean_mean": -0.37100512158216525,
+      "memory_mean_std": 0.26975139792191194,
+      "workload_type": "stable_low_load"
+    },
+    "2": {
+      "size": 5,
+      "percentage": 5.0,
+      "cpu_mean_mean": -1.2909524869268532,
+      "cpu_mean_std": 0.01202192207051787,
+      "cpu_std_mean": -1.596963340428354,
+      "cpu_std_std": 0.01991067206559566,
+      "cpu_cv_mean": -0.8555573522175752,
+      "cpu_cv_std": 0.9734984137562909,
+      "peak_usage_mean": -1.5601769235214913,
+      "peak_usage_std": 0.08463640363577328,
+      "over_provision_ratio_mean": 4.039448880334302,
+      "over_provision_ratio_std": 1.0492910500049701,
+      "memory_mean_mean": -0.39614165924469963,
+      "memory_mean_std": 0.11900248182956634,
+      "workload_type": "stable_low_load"
+    },
+    "3": {
+      "size": 7,
+      "percentage": 7.000000000000001,
+      "cpu_mean_mean": 1.0222121267071884,
+      "cpu_mean_std": 1.3466254880857706,
+      "cpu_std_mean": 0.3244147261537016,
+      "cpu_std_std": 0.7189257738673537,
+      "cpu_cv_mean": -0.7871212842372659,
+      "cpu_cv_std": 0.6936863831355549,
+      "peak_usage_mean": 0.667285196675758,
+      "peak_usage_std": 0.5868412560265318,
+      "over_provision_ratio_mean": -0.2505645621157139,
+      "over_provision_ratio_std": 0.15891756461822032,
+      "memory_mean_mean": 3.1548995417167345,
+      "memory_mean_std": 1.438180017848073,
+      "workload_type": "periodic"
+    }
+  },
+  "n_machines": 4,
+  "n_observations": 8
+}

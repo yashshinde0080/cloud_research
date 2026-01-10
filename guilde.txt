@@ -1,0 +1,21 @@
+# Quick test
+python main.py --use-synthetic --quick-test --generate-figures
+
+# Full experiment
+python main.py --use-synthetic --n-machines 100 --n-days 7 --generate-figures
+
+# Run tests
+python -m pytest tests/ -v
+
+# Demo mode
+python main.py demo
+
+#-----------------------------
+
+#using data
+# Option 1: Run with processed data (recommended)
+python main.py --data-path data/processed --generate-figures
+
+python predict_demo.py
+
+python main.py demo
